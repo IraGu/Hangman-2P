@@ -15,7 +15,6 @@ my_game = hangman(user1 = user1, user2 = user2, turn = turn)
 
 word = my_game.wordlist()
 
-print(word)
 print(len(list(word)))
 uword = my_game.unknown_word(word)
 uword = list(uword)
