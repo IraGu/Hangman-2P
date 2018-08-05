@@ -35,7 +35,7 @@ class hangman():
             print(list1)
             for p in list1:
                 uword[p] = letter
-                print(f"{uword}")
+            print(f"{uword}")
         else: 
             print(f"{letter} is incorrect guess.")
             print(f"{uword}")
@@ -53,5 +53,19 @@ class hangman():
         self.player_turn2 -= 1
         print(f"{user2} has {self.player_turn2} turns left")
         print(f"{user2} has guessed: {self.stored_list2}")
+
+    
+    def turn_count1(self):
+        return(int(self.player_turn1))
+
+
+    def turn_count2(self):
+        return(int(self.player_turn2))
+
+        
+
+
+    
+
 
 
